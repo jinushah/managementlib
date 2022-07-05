@@ -4,7 +4,7 @@
   height="400">
     <v-app>
       <v-app-bar
-        color="primary"
+        color="success"
         dark app
     >
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -32,7 +32,7 @@
             v-on="on"
           >
             <v-avatar
-              color="brown"
+              color="indigo"
               size=40
             >
               <span class="white--text text-h6">{{ user.initials }}</span>
@@ -43,7 +43,7 @@
           <v-list-item-content class="justify-center">
             <div class="mx-auto text-center">
               <v-avatar
-                color="brown"
+                color="indigo"
               >
                 <span class="white--text text-h5">{{ user.initials }}</span>
               </v-avatar>
@@ -55,7 +55,7 @@
               <v-btn
                 depressed
                 rounded
-                text
+                text 
               >
                 Edit Account
               </v-btn>
@@ -65,7 +65,7 @@
                 rounded
                 text
               >
-                Disconnect
+                Log-out
               </v-btn>
             </div>
           </v-list-item-content>

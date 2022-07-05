@@ -18,7 +18,7 @@
               :key="n"
               cols="4"
             >
-              <v-card height="150" style="background-image:linear-gradient(90deg,#6ec285,#00ff44)" router to="/member">
+              <v-card height="150" style="background-image:linear-gradient(90deg,#6ec285,#00ff44)" router to="/premium">
                 <h2 class="">&emsp;Members</h2><br/>
                 <h2 classs="">&emsp;{{counter}}</h2>
               </v-card>
@@ -28,7 +28,7 @@
               :key="n"
               cols="4"
             >
-              <v-card height="150" style="background-image:linear-gradient(90deg,#bfa05e,#ffae00)" router to="/free" @click="func(to)">
+              <v-card height="150" style="background-image:linear-gradient(90deg,#bfa05e,#ffae00)" router to="/premium">
                 <h2 class="white--text">&emsp;Expired Premium Mem</h2><br/>
                 <h2 class="white--text">&emsp;{{count}}</h2>
               </v-card>

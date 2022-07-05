@@ -4,8 +4,8 @@ import Dashboard from '../views/DashBoard.vue'
 import Available from '../components/available.vue'
 import Total from '../components/total.vue'
 import Rent from '../components/rent.vue'
+
 import Premium from '../components/premium.vue'
-import FreeMem from '../components/freecost.vue' 
 
 Vue.use(VueRouter)
 
@@ -28,8 +28,8 @@ const routes = [
     name:'available',
     component:Available
   },
-  {
-    path:'/total',
+  { 
+    path:'/total', 
     name:'total',
     component:Total
   },
@@ -43,11 +43,7 @@ const routes = [
     name:'premium',
     component:Premium
   },
-  {
-    path:'/free',
-    name:'free',
-    components:FreeMem
-  }
+ 
 ]
 
 const router = new VueRouter({
