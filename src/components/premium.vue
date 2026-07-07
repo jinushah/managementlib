@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vue-good-table :columns="columns" :rows="rows" />
+    <vue-good-table :columns="columns" :rows="rows" :line-numbers="true" />
   </div>
 </template>
 
@@ -12,11 +12,6 @@ export default {
   data() {
     return {
       columns: [
-        {
-          label: "Member Id",
-          field: "Member_id",
-          type: "number",
-        },
         {
           label: "Member Name",
           field: "Member_Name",
